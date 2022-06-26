@@ -1,6 +1,6 @@
 
 
-const { SyncHook } = require('tapable');
+const { SyncHook } = require('../tapable/index');
 
 const hook = new SyncHook(['a','b']);
 
