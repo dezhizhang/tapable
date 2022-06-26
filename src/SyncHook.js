@@ -4,7 +4,7 @@ const { SyncHook } = require('tapable');
 
 const hook = new SyncHook(['a','b']);
 
-
+debugger;
 hook.tap('1',(name,age) => {
     console.log('1',name,age);
     return '1';
