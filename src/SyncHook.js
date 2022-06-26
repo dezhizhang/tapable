@@ -1,7 +1,4 @@
-# tapable
 
-### SyncHook
-```js
 
 const { SyncHook } = require('tapable');
 
@@ -24,6 +21,3 @@ hook.tap('3',(name,age) => {
 });
 
 hook.call('hello',10);
-
-```
-
