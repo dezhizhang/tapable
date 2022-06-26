@@ -5,6 +5,7 @@ const { SyncHook } = require('tapable');
 
 const hook = new SyncHook(['name']);
 
+debugger
 hook.intercept({
     register(tapInfo) {
         console.log('intercept1 register',tapInfo.name);
